@@ -26,7 +26,7 @@ const c: IConfig = {
   keywords: '导航,免费资源,动漫,二次元,个人博客,社区站点,实用工具,学习资源,ACG,网络安全',
 
   // 默认主题: Light | Sim | Side | App | Shortcut
-  theme: 'Light',
+  theme: 'Sim',
 
   // 网站底部内容, 版权信息、备案号, 可以是 HTML
   footerContent: `
