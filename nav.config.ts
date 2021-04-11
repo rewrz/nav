@@ -2,7 +2,7 @@ import { IConfig } from './src/types'
 
 const c: IConfig = {
   // [必填], 请填写您的仓库地址
-  gitRepoUrl: 'https://github.com/xjh22222228/nav',
+  gitRepoUrl: 'https://github.com/rewrz/nav',
 
   // 部署分支
   branch: 'main',
@@ -14,16 +14,16 @@ const c: IConfig = {
   showGithub: true,
 
   // 您的网站地址，有利于SEO
-  homeUrl: 'https://nav3.cn',
+  homeUrl: 'https://nav.gal.moe',
 
   // 网站标题
-  title: '发现导航 - 精选实用导航网站',
+  title: '娇萌导航 - 精选实用导航网站',
 
   // 网站描述
-  description: '发现导航 - 精选实用导航网站',
+  description: '娇萌导航 - 精选实用导航网站',
 
   // 网站关键字
-  keywords: '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js',
+  keywords: '导航,免费资源,动漫,二次元,个人博客,社区站点,实用工具,学习资源,ACG,网络安全',
 
   // 默认主题: Light | Sim | Side | App | Shortcut
   theme: 'Light',
@@ -31,12 +31,12 @@ const c: IConfig = {
   // 网站底部内容, 版权信息、备案号, 可以是 HTML
   footerContent: `
     <div style="font-weight: bold;">共收录\${total}个网站</div>
-    <div>Copyright © 2018-2021 nav3.cn, All Rights Reserved</div>
+    <div>Copyright © 2018-2021 gal.moe, All Rights Reserved</div>
   `,
 
   // 百度统计地址
   // https://tongji.baidu.com/web/welcome/login
-  baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba',
+  baiduStatisticsUrl: '',
 
   // CNZZ 统计地址
   // https://www.cnzz.com/o_index.php
@@ -79,7 +79,7 @@ const c: IConfig = {
   simThemeConfig: {
     // 海报图
     posterImageUrls: [
-      'https://raw.sevencdn.com/xjh22222228/nav/image/sim-wallpaper.jpg'
+      'https://cdn.jsdelivr.net/gh/rewrz/rp@master/wp-content/uploads/2021/02/2020%E5%B9%B4%E6%97%A5%E9%A3%9F.jpg'
     ],
     description: '这里收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活'
   }
